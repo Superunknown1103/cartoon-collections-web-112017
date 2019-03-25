@@ -13,6 +13,7 @@ def long_planeteer_calls(calls)
     if c.length > 4 "greater"
     else "less"
     }
+  end
   length_check.include? "greater"
 end
 
