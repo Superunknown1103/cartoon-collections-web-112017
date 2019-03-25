@@ -9,7 +9,10 @@ def summon_captain_planet(calls)
 end
 
 def long_planeteer_calls(calls)
-  length_check = calls.collect{ |c| c.length > 4 ? "greater" : "less" }
+  length_check = calls.collect{ |c|
+    if c.length > 4 "greater"
+    else "less"
+    }
   length_check.include? "greater"
 end
 
