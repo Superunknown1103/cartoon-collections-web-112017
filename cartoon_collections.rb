@@ -16,7 +16,7 @@ def long_planeteer_calls(calls)
       return "less"
     end
   }
-  length_check.include?("greater")
+  return length_check.include?("greater")
 end
 
 def find_the_cheese# code an argument here
