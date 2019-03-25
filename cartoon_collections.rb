@@ -11,12 +11,12 @@ end
 def long_planeteer_calls(calls)
   length_check = calls.collect{ |c|
     if c.length > 4
-      return true
+      return 'greater'
     else
-      return false
+      return 'less'
     end
   }
-  length_check.include?(true)
+  length_check.include?('greater')
 end
 
 def find_the_cheese# code an argument here
